@@ -3,7 +3,7 @@
     "configFile": "D:\\Other data\\QA\\playwrightAutomation\\playwright.config.js",
     "rootDir": "D:/Other data/QA/playwrightAutomation/tests",
     "forbidOnly": false,
-    "fullyParallel": false,
+    "fullyParallel": true,
     "globalSetup": null,
     "globalTeardown": null,
     "globalTimeout": 0,
@@ -85,18 +85,18 @@
     "shard": null,
     "updateSnapshots": "missing",
     "version": "1.41.2",
-    "workers": 3,
+    "workers": 10,
     "webServer": null
   },
   "suites": [
     {
-      "title": "POMtest.spec.js",
-      "file": "POMtest.spec.js",
+      "title": "Checkboxes.spec.js",
+      "file": "Checkboxes.spec.js",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": "test",
+          "title": "Checkboxes",
           "ok": true,
           "tags": [],
           "tests": [
@@ -110,25 +110,21 @@
                 {
                   "workerIndex": 0,
                   "status": "passed",
-                  "duration": 13497,
+                  "duration": 13198,
                   "errors": [],
-                  "stdout": [
-                    {
-                      "text": "Samsung galaxy s7\n"
-                    }
-                  ],
+                  "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-03-26T11:14:47.850Z",
+                  "startTime": "2024-05-07T01:27:19.564Z",
                   "attachments": []
                 }
               ],
               "status": "expected"
             }
           ],
-          "id": "6d44e17a9ecb26219d7d-a82c5720c1c1988446d4",
-          "file": "POMtest.spec.js",
-          "line": 6,
+          "id": "83489d57b821106c2b60-02c793daf32cb43f1944",
+          "file": "Checkboxes.spec.js",
+          "line": 3,
           "column": 1
         }
       ]
@@ -136,8 +132,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2024-03-26T11:14:47.353Z",
-    "duration": 16050.586000000001,
+    "startTime": "2024-05-07T01:27:19.300Z",
+    "duration": 13732.541,
     "expected": 1,
     "skipped": 0,
     "unexpected": 0,

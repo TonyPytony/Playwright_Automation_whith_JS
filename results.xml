@@ -1,10 +1,6 @@
-<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="15.968658999999997">
-<testsuite name="POMtest.spec.js" timestamp="2024-03-26T11:14:47.451Z" hostname="chromium" tests="1" failures="0" skipped="0" time="13.497" errors="0">
-<testcase name="test" classname="POMtest.spec.js" time="13.497">
-<system-out>
-<![CDATA[Samsung galaxy s7
-]]>
-</system-out>
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="13.694288">
+<testsuite name="Checkboxes.spec.js" timestamp="2024-05-07T01:27:19.346Z" hostname="chromium" tests="1" failures="0" skipped="0" time="13.198" errors="0">
+<testcase name="Checkboxes" classname="Checkboxes.spec.js" time="13.198">
 </testcase>
 </testsuite>
 </testsuites>

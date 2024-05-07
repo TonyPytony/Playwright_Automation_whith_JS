@@ -35,7 +35,7 @@ test('Bootstrap dropdowns', async ({page})=>{
         }
     }
 
-    await page.waitForTimeout(5000)
+    await page.waitForTimeout(3000)
 
 
 

@@ -1,6 +1,6 @@
 const {test, expect} = require('@playwright/test')
 
-test.skip('Alert with OK', async ({page})=>{
+test('Alert with OK', async ({page})=>{
 
     await page.goto('https://testautomationpractice.blogspot.com/')
 
@@ -17,7 +17,7 @@ test.skip('Alert with OK', async ({page})=>{
 
 })
 
-test.skip('Confirmation alert with OK and Cancel', async ({page})=>{
+test('Confirmation alert with OK and Cancel', async ({page})=>{
 
     await page.goto('https://testautomationpractice.blogspot.com/')
 

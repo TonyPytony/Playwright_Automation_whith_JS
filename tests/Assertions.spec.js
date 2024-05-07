@@ -26,7 +26,7 @@ test('AssertionsTest', async ({page}) =>{
 
     await expect(await page.locator('.category-name')).toContainText('Від')
 
-    const minPrice = await page.locator("//input[@placeholder='1326']")
+    const minPrice = await page.locator("//input[@placeholder='1364']")
     await minPrice.fill('7777')
     await expect(minPrice).toHaveValue('7777')
 
